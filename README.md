@@ -1,4 +1,11 @@
 <p align="center">
+  <b>🌍 Climate Change Awareness Month 🌍</b><br>
+  <i>Let's work together to protect our planet! Small actions can make a big difference.</i>
+</p>
+
+---
+
+<p align="center">
     <img src="https://github.com/sweepai/sweep/assets/26889185/39d500fc-9276-402c-9ec7-3e61f57ad233">
 </p>
 <p align="center">
