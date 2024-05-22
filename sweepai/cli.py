@@ -127,11 +127,9 @@ def get_event_type(event: Event | IssueEvent):
     else:
         return pascal_to_snake(event.type)[: -len("_event")]
 
-@app.command()
 def test():
     cprint("Sweep AI is installed correctly and ready to go!", style="yellow")
 
-@app.command()
 def watch(
     repo_name: str,
     debug: bool = False,
@@ -242,9 +240,8 @@ def watch(
         main()
 
 
-@app.command()
 def init(override: bool = False):
-    # TODO: Fix telemetry
+    # TODO: Fix telemetry 
     if not override:
         if os.path.exists(config_path):
             with open(config_path, "r") as f:
@@ -321,7 +318,6 @@ def init(override: bool = False):
     )
 
 
-@app.command()
 def run(issue_url: str):
     if not os.path.exists(config_path):
         cprint(
